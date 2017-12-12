@@ -79,7 +79,7 @@ Kirigami.Page {
       FolderListView {
         id: folderModelListView
         anchors.top: addFolderButton.bottom
-        anchors.topMargin: Kirigami.Units.gridUnit * 3.5
+        anchors.topMargin: Kirigami.Units.gridUnit * 5.5
         anchors.left: parent.left
         anchors.right: parent.right
         anchors.bottom: parent.bottom
