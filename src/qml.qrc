@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>qml/main.qml</file>
+        <file>qml/FileDelegate.qml</file>
+        <file>qml/FilePage.qml</file>
+        <file>qml/MusicPlayerListStyle.qml</file>
+        <file>qml/PlayListModel.qml</file>
+        <file>qml/PlayListDelegate.qml</file>
+        <file>images/media-playback-pause.svg</file>
+        <file>images/media-playback-start.svg</file>
+        <file>images/media-skip-backward.svg</file>
+        <file>images/media-skip-forward.svg</file>
+        <file>images/media-playlist-repeat.svg</file>
+        <file>images/media-playlist-shuffle.svg</file>
+        <file>qml/FolderPage.qml</file>
+        <file>qml/FolderListViewDelegate.qml</file>
+        <file>qml/FolderListView.qml</file>
+        <file>images/media-repeat-playlist.svg</file>
+        <file>images/media-repeat-track.svg</file>
+        <file>images/media-album-track.svg</file>
+        <file>main.cpp</file>
+        <file>qmlenvironmentvariable.cpp</file>
+        <file>qmlenvironmentvariable.h</file>
+    </qresource>
+</RCC>
