@@ -144,7 +144,7 @@ Kirigami.ApplicationWindow {
                     color: Kirigami.Theme.backgroundColor
          }
 
-         title: "Simple Music Player"
+         title: "Simple Audio Player"
 
          MusicPlayerListStyle {
             anchors.fill: parent

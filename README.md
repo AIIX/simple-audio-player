@@ -14,7 +14,7 @@ Simple Audio Player Application for Plasma Mobile
 - KF5 Config, Kirigami2
 
 ### KDE NEON:
-- sudo apt install qml-module-qtquick-controls qtdeclarative5-dev build-essential g++ gettext qtdeclarative5-models-plugin cmake cmake-extras cmake-data qml-module-qtquick-layouts libkf5plasma-dev extra-cmake-modules qtmultimedia5-dev
+- sudo apt install qml-module-qtquick-controls qtdeclarative5-dev build-essential g++ gettext qtdeclarative5-models-plugin cmake cmake-extras cmake-data qml-module-qtquick-layouts libkf5plasma-dev extra-cmake-modules qtmultimedia5-dev libkf5guiaddons-dev kirigami2-dev qml-module-qtaudioengine gstreamer1.0-*
 
 ### Known Bugs:
 - Application does not store added folders on restart (Temporary workaround: Users Music folder is added by default to the playlist on restart)

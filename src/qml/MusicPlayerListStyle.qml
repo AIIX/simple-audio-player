@@ -67,7 +67,7 @@ ListView {
             color: Kirigami.Theme.backgroundColor
             border.width: 1
             border.color: Qt.lighter(Kirigami.Theme.textColor, 1.2);
-            radius: 100
+            radius: 200
 
             Image {
                 id: playIcon
@@ -306,7 +306,7 @@ ListView {
     id: songtitle
     anchors.bottom: parent.bottom
     anchors.left: parent.left
-    anchors.leftMargin: Kirigami.Units.gridUnit * 6
+    anchors.leftMargin: Kirigami.Units.gridUnit * 5
     anchors.right: parent.right
     anchors.rightMargin: Kirigami.Units.gridUnit * 6
     height: Kirigami.Units.gridUnit * 2
@@ -326,7 +326,7 @@ ListView {
         anchors.bottom: parent.bottom
         maximumValue: player.duration
         anchors.left: parent.left
-        anchors.leftMargin: Kirigami.Units.gridUnit * 6
+        anchors.leftMargin: Kirigami.Units.gridUnit * 5
         anchors.right: parent.right
         anchors.rightMargin: Kirigami.Units.gridUnit * 6
         property bool sync: false
@@ -349,7 +349,7 @@ ListView {
         id: positionLabel
         color: Kirigami.Theme.textColor
         anchors.right: parent.right
-        anchors.rightMargin: Kirigami.Units.gridUnit * 4
+        anchors.rightMargin: Kirigami.Units.gridUnit * 3
         anchors.verticalCenter: seekableslider.verticalCenter
         readonly property int minutes: Math.floor(player.position / 60000)
         readonly property int seconds: Math.round((player.position % 60000) / 1000)

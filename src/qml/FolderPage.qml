@@ -42,6 +42,7 @@ Kirigami.Page {
      Rectangle {
          id: addFolderButton
          anchors.top: parent.top
+         anchors.topMargin: Kirigami.Units.gridUnit * 3
          anchors.left: parent.left
          anchors.right: parent.right
          height: Kirigami.Units.gridUnit * 2

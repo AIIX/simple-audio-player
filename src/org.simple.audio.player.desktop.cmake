@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=SimpleAudioPlayer
-Name[en_GB]=SimpleAudioPlayer
+Name=Simple Audio Player
+Name[en_GB]=Simple Audio Player
 MimeType=@DesktopMimeType@
 Exec=@DesktopExec@
 Icon=simple-audio-icon
